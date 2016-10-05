@@ -1,0 +1,245 @@
+/* ~~~Universal~~~ */
+
+ul {
+	margin: 0;
+}
+
+li {
+	list-style-type: none;
+	font-family: 'Open Sans Condensed', Serif;
+	display: inline-block;
+}
+
+* {
+	box-sizing: border-box;	
+}
+
+li a {
+	width: 60px; 
+	margin: 0 0 0 15px; 
+	text-decoration: none;
+}
+
+h3 {
+	font-family: 'PT Sans', Sans;
+	font-size: 2em;
+}
+
+
+/* ~~~Layout~~~ */
+.content-wrapper {
+	background-color: #FFF;
+	text-align: center;
+	padding-left: 1em;
+	padding-right: 1em; 
+}
+.footer-wrapper {
+	background-color: green; 
+	margin: 0;
+}
+
+.header-wrapepr {
+	text-align: center;
+}
+
+/* ~~~Header~~~ */
+
+ header {
+	width: 100%;
+	margin: 0 auto;
+	background-color: #FFA771;
+	text-align: center;
+}
+
+/* ~~~Logo~~~ */
+
+.logo, .logo img {
+	display: block;
+	padding-left: 2.5%;
+	height: 20%;
+	width:20%;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.logo img:hover {
+	background-color: #FF721B;
+}
+
+
+/* ~~~Top Navigation Menu~~~ */
+
+.top-nav {
+	text-align: center;
+	background-color: #FFA771; 
+	font-size: 2.5em;
+}
+
+.top-nav a:link {
+	color: #FF721B;
+}
+
+.top-nav a:visited {
+	color: #B04400;
+}
+
+.top-nav a:active {
+	color: #E25700;
+}
+
+.top-nav a:hover {
+	color: #5ed498;
+}
+
+/* ~~~Main Page Content~~~ */
+
+.content {
+	background-color: #FFF;
+	font-size: 1.3em;
+	
+}
+
+.content p {
+	color: #5CB3C8;
+}
+
+.content h3 {
+	color: #04728c;
+}
+
+.content img {
+	margin-top: 10px;
+}
+
+h3 {
+	font-family: 'PT Sans', sans-serif;
+	margin: 0;
+}
+
+p {
+	font-family: 'Open Sans Condensed', Serif;
+}
+
+/* ~~~History Page Content~~~ */
+
+.h-content {
+	margin-top: 10px; 
+	font-size: 1.3em;
+}
+
+.h-content p {
+	text-indent: 50px;
+	color: #5CB3C8;
+	background-color: #FFF;
+}
+
+.h-content h3 {
+	color: #04728c;
+}
+
+/* ~~~Menu Page Content~~~ */
+
+.m-content li, .m-content ul{
+	display: block;
+	font-size: 1.2em;
+	color: #5CB3C8;
+	text-align: right;
+}
+
+.m-content h2 {
+	color: #04728c;
+}
+
+.m-content h3 {
+	font-size: 1.4 em;
+	color: #00954E;
+	float: left;
+}
+
+.menu-items {
+	border-right: solid black 2px;
+	padding-right: 20px;
+	width: 300px;
+	height: 300px;
+
+}
+
+.menu-items ul {
+	padding-left: 20px;
+	
+}
+
+.food-pic {
+	margin: auto;
+}
+
+
+.food-pic img {
+	float: right;
+	display: inline-block;
+	width: 250px;
+	height: 250px;
+}
+
+/* ~~~Reservations Page Content~~~ */
+
+.r-content img {
+	margin: 10px 15px;
+	
+}
+
+
+/* ~~~Footer~~~ */
+.footer-content {
+	text-align: center;
+}
+
+.bottom-nav {
+	background-color: #53D498;
+	font-size: 1.7em;
+	
+}
+
+.bottom-nav a:link {
+	color: #14BB66;
+}
+
+.bottom-nav a:visited {
+	color: #00954E;
+}
+
+.bottom-nav a:active {
+	color: #007C3E;
+}
+
+.bottom-nav a:hover {
+	color: #36c47c;
+}
+
+/* ~~~Clear Float~~~ */
+div {
+    clear: left;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+
+/* ~~~Media Queries~~~ */
+@media (min-width: 796px) {
+	.content-wrapper {
+	width: 70%;
+	margin: 0 auto;
+	max-width: 1000px;
+}
+
+	.wrap {
+	min-height: calc(100vh - 53px);
+	}
+	
+	.top-nav, .top-nav li{
+	display: inline;
+}
+	
+}
