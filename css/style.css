@@ -25,6 +25,16 @@ h3 {
 	font-size: 2em;
 }
 
+img {
+	opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+img:hover  {
+	opacity: .5;
+}
+
+
 
 /* ~~~Layout~~~ */
 .content-wrapper {
@@ -42,6 +52,11 @@ h3 {
 	text-align: center;
 }
 
+.header-wrapper {
+	border-bottom: 2px black dotted;
+	
+}
+
 /* ~~~Header~~~ */
 
  header {
@@ -56,10 +71,11 @@ h3 {
 .logo, .logo img {
 	display: block;
 	padding-left: 2.5%;
-	height: 20%;
-	width:20%;
+	height: 30%;
+	width: 30%;
 	margin-left: auto;
     margin-right: auto;
+	border-radius: 20%;
 }
 
 .logo img:hover {
@@ -120,6 +136,12 @@ p {
 	font-family: 'Open Sans Condensed', Serif;
 }
 
+#hours {
+	font-size: 1em;
+	font-family: 'Open Sans Condensed', Serif;
+	color: #14bb66;
+}
+
 /* ~~~History Page Content~~~ */
 
 .h-content {
@@ -174,12 +196,7 @@ p {
 }
 
 
-.food-pic img {
-	float: right;
-	display: inline-block;
-	width: 250px;
-	height: 250px;
-}
+
 
 /* ~~~Reservations Page Content~~~ */
 
@@ -188,6 +205,22 @@ p {
 	
 }
 
+.r-content ul, .r-content p {
+	font-size: 1.3em;
+	color: #5CB3C8;
+}
+
+.r-content h4 {
+	color: #00954E;
+	font-size: 1.5em
+}
+
+.food-pic img {
+	float: right;
+	display: inline-block;
+	width: 250px;
+	height: 250px;
+}
 
 /* ~~~Footer~~~ */
 .footer-content {
@@ -216,15 +249,12 @@ p {
 	color: #36c47c;
 }
 
+
+
 /* ~~~Clear Float~~~ */
 div {
     clear: left;
 }
-
-.clearfix {
-    overflow: auto;
-}
-
 
 /* ~~~Media Queries~~~ */
 @media (min-width: 796px) {
@@ -243,3 +273,4 @@ div {
 }
 	
 }
+
