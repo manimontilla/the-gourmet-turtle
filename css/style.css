@@ -203,8 +203,15 @@ p {
 /* ~~~Reservations Page Content~~~ */
 
 .r-content img {
-	margin: 10px 15px;
+	margin: 15px 5%;
+	width: 40%;
+	height: auto;
+	float: left;
 	
+}
+
+.r-content .text-wrap {
+	clear: both;
 }
 
 .r-content ul, .r-content p {
