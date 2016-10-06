@@ -34,7 +34,9 @@ img:hover  {
 	opacity: .5;
 }
 
-
+.clearfix {
+  overflow: auto;
+}
 
 /* ~~~Layout~~~ */
 .content-wrapper {
